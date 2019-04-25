@@ -8,6 +8,8 @@ def pow(a, b):
     """
     if(b == 0):
         return 1
+    elif(b==1):
+        return a
     else:
         temp = pow(a, b / 2)
         if(b % 2 == 0):
